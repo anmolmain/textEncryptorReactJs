@@ -1,0 +1,65 @@
+.EncryptClass {
+  height: 100vh;
+  text-align: center;
+  background-color: rgb(183, 233, 254);
+  font-size: x-large;
+  font-weight: 700;
+  color: #11354b;
+
+}
+
+input {
+  width: 75%;
+  padding: 1.5%;
+  margin: 2%;
+  font-size: large;
+}
+
+.btnE1 {
+  box-shadow: inset -5px -5px 5px 5px #2E424D;
+  border: none;
+  outline: none;
+  width: auto;
+  padding: 2%;
+  font-size: 105%;
+  border-radius: 25%;
+  margin: 3%;
+  font-weight: 800;
+  color: #EAEBED;
+  background-color: #6c95a6;
+  margin-bottom: 0px;
+
+}
+
+.btnE1:hover {
+  background-color: #4b748a;
+  box-shadow: inset -5px -5px 5px 5px #334f59;
+}
+
+.btnHome {
+  padding-left: 3%;
+  padding-right: 3%;
+  padding: 0.8%;
+  text-align: center;
+  font-weight: 800;
+  font-size: medium;
+  outline: none;
+  color: #EAEBED;
+  border: none;
+  border-radius: 10%;
+  box-shadow: inset -5px -5px 5px 5px #2E424D;
+  background-color: #6c95a6;
+}
+
+.btnHome:hover {
+  transition: 0.3s;
+  background-color: #4b748a;
+  box-shadow: inset -5px -5px 5px 5px #334f59;
+}
+
+#hiddenText,#hiddenId {
+  visibility: hidden;
+}
+#hiddenTextD{
+  visibility: hidden
+}
